@@ -1,0 +1,5 @@
+.DS_Store
+.idea/
+.vscode/
+*.iml
+assets/_src/.render/

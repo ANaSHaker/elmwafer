@@ -1,0 +1,44 @@
+{
+  "outDir": "..",
+  "brand": {
+    "name": "ElMwafer",
+    "tagline": "Discount codes and online-store offers for Gulf shoppers, in one Arabic app.",
+    "accent": "#02AB94",
+    "accent2": "#E5357A",
+    "logo": "logo.png",
+    "dark": true
+  },
+  "images": [
+    {
+      "type": "banner",
+      "file": "banner.png",
+      "kicker": "Flutter · Firebase · Source included",
+      "subtitle": "Discount codes and online-store offers, copied in one tap. Arabic, RTL, Firebase-powered.",
+      "screens": ["screens/03.jpg", "screens/02.jpg", "screens/05.jpg"],
+      "devices": ["android", "android", "android"],
+      "chips": ["Flutter", "Cloud Firestore", "FCM", "Provider", "Arabic RTL"]
+    },
+    {
+      "type": "gallery",
+      "file": "screens.png",
+      "title": "Coupons, offers, articles and settings",
+      "screens": ["screens/01.jpg", "screens/02.jpg", "screens/03.jpg", "screens/04.jpg", "screens/05.jpg", "screens/07.jpg"],
+      "device": "android",
+      "cols": 6
+    },
+    {
+      "type": "feature",
+      "file": "feature-coupons.png",
+      "kicker": "Signature feature",
+      "title": "Copy the code, open the store",
+      "points": [
+        "Coupons filtered by category with live type-ahead search",
+        "One tap copies the code and counts the use in Firestore",
+        "Open the store link or share the coupon with friends",
+        "Admin pushes new deals to every user over FCM"
+      ],
+      "screens": ["screens/02.jpg", "screens/03.jpg"],
+      "devices": ["android", "android"]
+    }
+  ]
+}

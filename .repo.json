@@ -1,0 +1,17 @@
+{
+  "name": "elmwafer",
+  "description": "ElMwafer (وفر قريشاتك): an Arabic coupon and deals app built with Flutter, Cloud Firestore and FCM. Copy a code in one tap, open the store, browse offers. Includes the user app source. Save on every order",
+  "topics": [
+    "flutter",
+    "dart",
+    "firebase",
+    "cloud-firestore",
+    "fcm",
+    "coupons",
+    "ecommerce",
+    "arabic",
+    "rtl",
+    "android"
+  ],
+  "homepage": null
+}

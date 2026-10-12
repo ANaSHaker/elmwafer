@@ -1,0 +1,23 @@
+# Static analysis for `flutter analyze`.
+# Kept dependency-free (no flutter_lints include) so it works on the
+# Flutter 2.x toolchain this legacy project targets.
+analyzer:
+  exclude:
+    - build/**
+    - "**/*.g.dart"
+    - lib/generated_plugin_registrant.dart
+  errors:
+    todo: ignore
+
+linter:
+  rules:
+    - avoid_empty_else
+    - avoid_relative_lib_imports
+    - avoid_types_as_parameter_names
+    - cancel_subscriptions
+    - close_sinks
+    - empty_statements
+    - hash_and_equals
+    - no_duplicate_case_values
+    - unrelated_type_equality_checks
+    - valid_regexps
